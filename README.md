@@ -17,24 +17,24 @@ The goal of this repository is to:
 The repository is organized to make it easy to navigate and explore the projects. Here’s the structure:
 
 ```
-81-small-python-projects/
+big-book-of-small-python-projects/
 ├── projects/
-│   ├── project_01/
-│   │   ├── main.py          # Main script for Project 1
-│   │   └── README.md       # Description and instructions for Project 1
-│   ├── project_02/
+│   ├── 01 - Bagels/
+│   │   ├── main.py            # Main script for Project 1
+│   │   └── description.md     # Description and instructions for Project 1
+│   ├── 02 - BirthdayParadox/
 │   │   ├── main.py
-│   │   └── README.md
-│   └── ...                 # Up to project_81
-├── LICENSE                 # MIT License for my code
-├── README.md               # This file
-└── requirements.txt        # Dependencies (if any) for running the projects
+│   │   └── description.md
+│   └── ...                    # Up to 81 projects
+├── LICENSE                    # MIT License for my code
+├── README.md                  # This file
+└── requirements.txt           # Dependencies (if any) for running the 
 ```
 
-- **projects/**: Contains 81 subdirectories, one for each project (e.g., `project_01`, `project_02`, ..., `project_81`).
-- **project_XX/**: Each project directory includes:
+- **projects/**: Contains 81 subdirectories, one for each project (e.g., `01 - Bagels`, `02 - BirthdayParadox`, ..., `81 - WaterBucketPuzzle`).
+- **00-XX/**: Each project directory includes:
   - `main.py`: The Python script implementing the project.
-  - `README.md`: A file describing the project, its purpose, how to run it, and any specific requirements or notes.
+  - `description.md`: A file describing the project, its purpose, how to run it, and any specific requirements or notes.
 - **requirements.txt**: Lists any external Python libraries (e.g., `pygame`, `numpy`) needed to run specific projects. Most projects use only the Python standard library.
 - **LICENSE**: The MIT License governing the use of my code.
 - **README.md**: This file, providing an overview of the repository.
