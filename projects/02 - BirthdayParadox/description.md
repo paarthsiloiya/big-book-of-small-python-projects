@@ -20,6 +20,6 @@ This program simulates this phenomenon. It generates random birthdays for a spec
 1.  You specify the number of people in the group.
 2.  The program generates that many random birthdays (ignoring leap years for simplicity).
 3.  It checks if any birthdays in the generated set are the same.
-4.  To prove the paradox, it runs this process 10,000 times and calculates the percentage of those simulations where a shared birthday was found.
+4.  To prove the paradox, it runs this process 100,000 times and calculates the percentage of those simulations where a shared birthday was found.
 
 Prepare to be surprised by the results! 
