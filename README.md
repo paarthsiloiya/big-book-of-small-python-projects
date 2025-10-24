@@ -21,10 +21,10 @@ big-book-of-small-python-projects/
 ├── projects/
 │   ├── 01 - Bagels/
 │   │   ├── main.py            # Main script for Project 1
-│   │   └── description.md     # Description and instructions for Project 1
+│   │   └── readme.md          # Description and instructions for Project 1
 │   ├── 02 - BirthdayParadox/
 │   │   ├── main.py
-│   │   └── description.md
+│   │   └── readme.md
 │   └── ...                    # Up to 81 projects
 ├── LICENSE                    # MIT License for my code
 ├── README.md                  # This file
@@ -34,7 +34,7 @@ big-book-of-small-python-projects/
 - **projects/**: Contains 81 subdirectories, one for each project (e.g., `01 - Bagels`, `02 - BirthdayParadox`, ..., `81 - WaterBucketPuzzle`).
 - **00-XX/**: Each project directory includes:
   - `main.py`: The Python script implementing the project.
-  - `description.md`: A file describing the project, its purpose, how to run it, and any specific requirements or notes.
+  - `readme.md`: A file describing the project, its purpose, how to run it, and any specific requirements or notes.
 - **requirements.txt**: Lists any external Python libraries (e.g., `pygame`, `numpy`) needed to run specific projects. Most projects use only the Python standard library.
 - **LICENSE**: The MIT License governing the use of my code.
 - **README.md**: This file, providing an overview of the repository.
