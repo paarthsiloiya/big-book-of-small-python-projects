@@ -9,18 +9,6 @@ LINE_PAUSE = 1.5
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-def display_welcome():
-    clear_screen()
-    print('🎵 ' + '=' * 60 + ' 🎵')
-    print('|' + ' ' * 60 + '|')
-    print('|' + '    🍼 SILLY BOTTLES SONG - Progressive Chaos 🍼    '.center(60) + '|')
-    print('|' + ' ' * 60 + '|')
-    print('|' + '  Watch the lyrics get progressively sillier with  '.center(60) + '|')
-    print('|' + '  each verse as random effects corrupt the text!   '.center(60) + '|')
-    print('|' + ' ' * 60 + '|')
-    print('🎵 ' + '=' * 60 + ' 🎵')
-    print()
-
 def get_settings():
     while True:
         try:
@@ -115,9 +103,7 @@ def save_corrupted_lyrics(lines, verse_num):
     except:
         return False
 
-def main():
-    display_welcome()
-    
+def main():    
     start_bottles, speed, line_pause, chaos_level = get_settings()
     
     print('\n🎵 Starting the Silly Bottles Song! (Press Ctrl-C to stop)')
